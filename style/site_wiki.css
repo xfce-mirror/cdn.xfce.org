@@ -36,6 +36,10 @@ a.wikilink2 {
 	margin-bottom: 0;
 }
 
+.dokuwiki #related ul {
+	margin-left: 1em;
+}
+
 #dw__toc {
 	margin: 0;
 	width: 100%;
@@ -48,19 +52,30 @@ a.wikilink2 {
 		letter-spacing: inherit;
 		padding: 0;
 	}
+	#dw__toc h3 strong {
+		display: inline-block;
+		width: 1.3em;
+		margin-right: 0.5em;
+		text-align: center;
+		background-color: rgba(0,0,0,0.1);
+	}
 	#dw__toc > div {
 		font-size: 100%;
 	}
 	#dw__toc ul {
-		margin-left: 0;
+		margin-left: 1em;
 	}
 		#dw__toc ul li {
 			list-style-image: none;
 			list-style-type: square;
 		}
 		#dw__toc li ul {
+			margin-left: 2em;
 			margin-top: 0.5em;
 		}
+	#dw__toc a {
+		color: #333;
+	}
 
 #header,
 #footer {

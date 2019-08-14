@@ -86,6 +86,11 @@
 		width: 90%;
 	}
 
+	/* Front page: Hide normal navigation */
+	#xfce-header ul {
+		display: none;
+	}
+
 	/* Front page: Slider */
 	#slidewrap {
 		background-size: auto 185px;

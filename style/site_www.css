@@ -416,12 +416,12 @@ div.figure {
 
 		/* Panel slide */
 
-		#slide div span#slide-panel {
+		#slide div #slide-panel {
 			background-position: 40% 10px;
 			z-index: 2;
 		}
 		#slide div span#slide-panel-notifyd {
-			background-position: 65% 20px;
+			background-position: 85% 100%;
 		}
 		#slide div span#slide-panel-vertical {
 			border-top-left-radius: 4px;

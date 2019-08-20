@@ -416,13 +416,17 @@ div.figure {
 
 		/* Panel slide */
 
-		#slide div span#slide-panel-deskbar,
+		#slide div span#slide-panel {
+			background-position: 40% 10px;
+			z-index: 2;
+		}
+		#slide div span#slide-panel-notifyd {
+			background-position: 65% 20px;
+		}
 		#slide div span#slide-panel-vertical {
 			border-top-left-radius: 4px;
-			border-top-right-radius: 4px;
+			background-position: 0 100%;
 		}
-			#slide div span#slide-panel-deskbar { background-position: 100% 0; }
-			#slide div span#slide-panel-vertical { background-position: 0 100%; }
 
 /*  Feeds  */
 

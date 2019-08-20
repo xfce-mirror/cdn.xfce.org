@@ -416,7 +416,7 @@ div.figure {
 
 		/* Panel slide */
 
-		#slide div #slide-panel {
+		#slide div#slide-panel {
 			background-position: 40% 10px;
 			z-index: 2;
 		}

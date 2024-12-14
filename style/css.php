@@ -1,7 +1,7 @@
 <?php
 
 /* change this prefix when you want to make sure cache is cleared */
-$apc_cache_prefix = '2024-12-09-a';
+$apc_cache_prefix = '2024-12-10-a';
 
 $site = urlencode ($_GET['site']);
 

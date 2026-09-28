@@ -64,7 +64,7 @@
 		border-top: 1px solid #fff;
 		padding: 0;
 	}
-	
+
 	#mainnav ul li a {
 		display: block;
 		padding: 0.4em 1em;
@@ -112,6 +112,13 @@
 
 		/* Panel slide */
 		#slide div span#slide-panel-deskbar { background-position: 0 0; }
+
+		/* Slider images, !important to override the inline styles */
+		#slide div#slide-thunar { background-image: url(//cdn.xfce.org/slider/thunar_mobile.png) !important; }
+		#slide div#slide-settings { background-image: url(//cdn.xfce.org/slider/settings_mobile.png) !important; }
+		#slide div#slide-xfwm4 { background-image: url(//cdn.xfce.org/slider/xfwm4_mobile.png) !important; }
+		#slide div#slide-panel { background-image: url(//cdn.xfce.org/slider/panel_mobile.png) !important; }
+		#slide div#slide-apps { background-image: url(//cdn.xfce.org/slider/apps_mobile.png) !important; }
 
 	/* Front page: Columns */
 	.post-wrap {
